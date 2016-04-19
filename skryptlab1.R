@@ -9,3 +9,8 @@ x <- hgu95av2ENTREZID
 genes_entrez <- as.list(x[genes_list[1:20]])
 
 setGeneric(konwersja,)
+<<<<<<< HEAD
+=======
+
+#test
+>>>>>>> f22b951dcb5871545c9d79e542907908b4ddeed2
