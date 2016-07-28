@@ -1,0 +1,4 @@
+Dane testowe za³¹czone w oddzielnym folderze zawieraj¹ dane dla 3 rodzajów nowotworów:
+ADENO
+SQUAMOUS
+SMALL CELL
