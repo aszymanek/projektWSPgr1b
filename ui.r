@@ -47,7 +47,6 @@ shinyUI(fluidPage(
     mainPanel(
       tabsetPanel(id ="maintabset",
                   tabPanel("About app", 
-                           div(img(src="team.png", height = 403, width = 588),style="text-align: center;"),
                            helpText(p("This is a web application which allows Affymetrix expression microarray data analysis.
                                       On the left panel you can load your data, and select a method for background correction and normalization and perform preprocessing.
                                       Next, in separate tab, you have to choose analysis pipeline - define groups, methods and treshold for analysis. You can also save you result plots and gene lists, which you can find in main panels tabs.", align="center"))),
