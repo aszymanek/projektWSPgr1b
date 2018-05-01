@@ -55,7 +55,7 @@ shinyUI(fluidPage(
                   tabPanel("Preprocessing and quality control",
                            tabsetPanel(id="nestedpanel",
                                        tabPanel("Raw data",
-                                                tabsetPanel("rawplots",
+                                                tabsetPanel(id="rawplots",
                                                             tabPanel("Histogram",
                                                                      conditionalPanel(
                                                                        condition="!output.histo_przed",
